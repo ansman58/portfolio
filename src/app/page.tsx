@@ -12,45 +12,44 @@ const skills = [
 
 const projects = [
   {
-    title: "Project One",
-    description: "A short description — role, tech, and impact.",
+    title: "Beauty Salon Website",
+    description: "Modern salon booking platform with responsive design — Next.js, TypeScript, React.",
     live: "#",
-    source: "#",
+    source: "https://github.com/yourusername/beauty-salon",
   },
   {
-    title: "Project Two",
-    description: "A short description — role, tech, and impact.",
+    title: "Car Rental Platform",
+    description: "Full-featured car rental service with checkout system — Next.js, TypeScript, Custom Components.",
     live: "#",
-    source: "#",
+    source: "https://github.com/yourusername/car-rental",
   },
   {
-    title: "Project Three",
-    description: "A short description — role, tech, and impact.",
+    title: "Consulting Website",
+    description: "Professional consulting service landing page — Next.js, TypeScript, Modern UI.",
     live: "#",
-    source: "#",
+    source: "https://github.com/yourusername/consulting-site",
+  },
+  {
+    title: "Dental Clinic Website",
+    description: "Healthcare website with appointment booking — Next.js, TypeScript, Responsive Design.",
+    live: "#",
+    source: "https://github.com/yourusername/dental-clinic",
+  },
+  {
+    title: "E-Commerce Platform",
+    description: "Complete e-commerce solution with product catalog — Next.js, TypeScript, React.",
+    live: "#",
+    source: "https://github.com/yourusername/ecommerce-site",
+  },
+  {
+    title: "Restaurant Website",
+    description: "Restaurant showcase with menu and reservations — Next.js, TypeScript, Modern Design.",
+    live: "#",
+    source: "https://github.com/yourusername/restaurant-site",
   },
 ];
 
-const blogs = [
-  {
-    title: "Building Accessible React Components",
-    description: "A deep dive into ARIA patterns and keyboard navigation.",
-    url: "#",
-    date: "Nov 2024",
-  },
-  {
-    title: "Why I Switched from Express to Adonis",
-    description: "Lessons learned migrating a production API.",
-    url: "#",
-    date: "Oct 2024",
-  },
-  {
-    title: "TypeScript Tips for Large Codebases",
-    description: "Practical patterns that scale.",
-    url: "#",
-    date: "Sep 2024",
-  },
-];
+
 
 export default function Home() {
   return (
@@ -69,11 +68,12 @@ export default function Home() {
           Anslem Nnakwe
         </h1>
         <p className="mt-2 text-lg text-gray-600">
-          Senior Software Developer — JavaScript, TypeScript, Python
+          Software Developer — JavaScript, TypeScript, Python
         </p>
         <p className="mt-4 max-w-2xl text-gray-600">
-          I build fast, accessible, and maintainable web apps. Currently focused
-          on modern frontend frameworks and robust backend APIs.
+          I create digital experiences that are fast, accessible, and reliable.
+          I&apos;m currently deep-diving into modern frontend tech and building
+          strong backend systems.
         </p>
         <div className="mt-6 flex gap-4">
           <a
@@ -95,10 +95,7 @@ export default function Home() {
       <section id="about" className="py-16">
         <h2 className="mb-4 text-xl font-semibold">About</h2>
         <p className="max-w-2xl text-gray-600">
-          I have over 4 years of professional experience building products using
-          JavaScript, TypeScript, and Python. I work with React, Next.js, Astro,
-          Solid, Express, Adonis, and Django. In my free time I enjoy reading,
-          listening to music, and long-distance running.
+          I help individual businesses, startups, and companies build robust and scalable web applications. With over 4 years of experience, I specialize in transforming ideas into reality using modern technologies like JavaScript, TypeScript, and Python.
         </p>
       </section>
 
@@ -138,28 +135,10 @@ export default function Home() {
       </section>
 
       {/* Blog */}
-      <section id="blog" className="py-16">
+      {/* <section id="blog" className="py-16">
         <h2 className="mb-6 text-xl font-semibold">Blog</h2>
-        <div className="space-y-4">
-          {blogs.map((b) => (
-            <a
-              key={b.title}
-              href={b.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block rounded border border-black/10 p-5 hover:border-black/30"
-            >
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="font-medium">{b.title}</h3>
-                  <p className="mt-1 text-sm text-gray-600">{b.description}</p>
-                </div>
-                <span className="shrink-0 text-sm text-gray-500">{b.date}</span>
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
+        <p className="text-gray-600">Coming Soon...</p>
+      </section> */}
 
       {/* Contact */}
       <section id="contact" className="py-16">
