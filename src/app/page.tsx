@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePic from "@/assets/profile_pic.jpg";
+import profilePic from "@/assets/profile_pic.jpeg";
 
 const skills = [
   "JavaScript / TypeScript",

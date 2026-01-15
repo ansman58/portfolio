@@ -808,7 +808,7 @@ module.exports = (sourcePath)=>({
       case "server/chunks/ssr/[root-of-the-server]__4cdb5905._.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__4cdb5905._.js");
       case "server/chunks/ssr/[root-of-the-server]__e55abc15._.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/[root-of-the-server]__e55abc15._.js");
       case "server/chunks/ssr/_897efb52._.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/_897efb52._.js");
-      case "server/chunks/ssr/_eafb8fdd._.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/_eafb8fdd._.js");
+      case "server/chunks/ssr/_981e1faf._.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/_981e1faf._.js");
       case "server/chunks/ssr/_next-internal_server_app_page_actions_39d4fc33.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/_next-internal_server_app_page_actions_39d4fc33.js");
       case "server/chunks/ssr/node_modules__pnpm_651dd070._.js": return require("/Users/macjavaman/Desktop/portfolio/portfolio/.open-next/server-functions/default/.next/server/chunks/ssr/node_modules__pnpm_651dd070._.js");
       default:
