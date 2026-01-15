@@ -14,38 +14,38 @@ const projects = [
   {
     title: "Beauty Salon Website",
     description: "Modern salon booking platform with responsive design — Next.js, TypeScript, React.",
-    live: "#",
-    source: "https://github.com/yourusername/beauty-salon",
+    live: process.env.NEXT_PUBLIC_BEAUTY_SALON_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_BEAUTY_SALON_SOURCE_URL!,
   },
   {
     title: "Car Rental Platform",
     description: "Full-featured car rental service with checkout system — Next.js, TypeScript, Custom Components.",
-    live: "#",
-    source: "https://github.com/yourusername/car-rental",
+    live: process.env.NEXT_PUBLIC_CAR_RENTAL_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_CAR_RENTAL_SOURCE_URL!,
   },
   {
     title: "Consulting Website",
     description: "Professional consulting service landing page — Next.js, TypeScript, Modern UI.",
-    live: "#",
-    source: "https://github.com/yourusername/consulting-site",
+    live: process.env.NEXT_PUBLIC_CONSULTING_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_CONSULTING_SOURCE_URL!,
   },
   {
     title: "Dental Clinic Website",
     description: "Healthcare website with appointment booking — Next.js, TypeScript, Responsive Design.",
-    live: "#",
-    source: "https://github.com/yourusername/dental-clinic",
+    live: process.env.NEXT_PUBLIC_DENTAL_CLINIC_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_DENTAL_CLINIC_SOURCE_URL!,
   },
   {
     title: "E-Commerce Platform",
     description: "Complete e-commerce solution with product catalog — Next.js, TypeScript, React.",
-    live: "#",
-    source: "https://github.com/yourusername/ecommerce-site",
+    live: process.env.NEXT_PUBLIC_ECOMMERCE_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_ECOMMERCE_SOURCE_URL!,
   },
   {
     title: "Restaurant Website",
     description: "Restaurant showcase with menu and reservations — Next.js, TypeScript, Modern Design.",
-    live: "#",
-    source: "https://github.com/yourusername/restaurant-site",
+    live: process.env.NEXT_PUBLIC_RESTAURANT_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_RESTAURANT_SOURCE_URL!,
   },
 ];
 
@@ -83,7 +83,7 @@ export default function Home() {
             View Projects
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:javanslem@gmail.com"
             className="inline-block rounded border border-black/30 px-5 py-2 text-sm font-medium hover:border-black"
           >
             Contact
@@ -146,10 +146,10 @@ export default function Home() {
         <p className="text-gray-600">
           Want to discuss a role or project? Email me at{" "}
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:javanslem@gmail.com"
             className="underline hover:text-black"
           >
-            youremail@example.com
+            javanslem@gmail.com
           </a>
           .
         </p>
