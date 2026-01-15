@@ -98,7 +98,7 @@ export default function Home() {
         </p>
         <p className="mt-4 max-w-2xl text-gray-600">
           I help individual businesses, startups, and companies build robust and
-          scalable web applications. With over 4 years of experience, I
+          scalable web applications. With over 5 years of experience, I
           specialize in transforming ideas into reality using modern
           technologies like JavaScript, TypeScript, and Python.
         </p>
