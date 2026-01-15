@@ -26,6 +26,9 @@
     }
   },
   "vars": {
+    "NEXT_PUBLIC_PROPERTYPRO_SOURCE_URL": "",
+    "NEXT_PUBLIC_LATA_LIVE_URL": "https://lata.ng",
+    "NEXT_PUBLIC_LATA_SOURCE_URL": "",
     "NEXT_PUBLIC_AWWWARD_LIVE_URL": "https://awwward.javanslem.dev",
     "NEXT_PUBLIC_AWWWARD_SOURCE_URL": "https://github.com/ansman58/awwward-site",
     "NEXT_PUBLIC_BEAUTY_SALON_LIVE_URL": "https://beauty.javanslem.dev",
@@ -34,6 +37,8 @@
     "NEXT_PUBLIC_CAR_RENTAL_SOURCE_URL": "https://github.com/ansman58/car-rental",
     "NEXT_PUBLIC_CONSULTING_LIVE_URL": "https://consulting.javanslem.dev",
     "NEXT_PUBLIC_CONSULTING_SOURCE_URL": "https://github.com/ansman58/consulting-firm",
+    "NEXT_PUBLIC_CRYPTO_VAULT_LIVE_URL": "",
+    "NEXT_PUBLIC_CRYPTO_VAULT_SOURCE_URL": "",
     "NEXT_PUBLIC_DENTAL_CLINIC_LIVE_URL": "https://dental.javanslem.dev",
     "NEXT_PUBLIC_DENTAL_CLINIC_SOURCE_URL": "https://github.com/ansman58/dental-clinic",
     "NEXT_PUBLIC_ECOMMERCE_LIVE_URL": "https://ecommerce.javanslem.dev",
