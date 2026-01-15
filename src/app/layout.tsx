@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Firstname Lastname — Senior Software Developer",
   description:
     "Portfolio of a senior software developer with 4+ years experience in JavaScript, TypeScript, Python, React, Next.js, and more.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

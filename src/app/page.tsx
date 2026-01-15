@@ -11,45 +11,71 @@ const skills = [
 ];
 
 const projects = [
+
+  {
+    title: "Lata.ng",
+    description:
+      "E-commerce marketplace connecting buyers and sellers with product management — Next.js, Node.js, Full-Stack.",
+    live: process.env.NEXT_PUBLIC_LATA_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_LATA_SOURCE_URL!,
+  },
   {
     title: "Beauty Salon Website",
-    description: "Modern salon booking platform with responsive design — Next.js, TypeScript, React.",
+    description:
+      "Modern salon booking platform with responsive design — Next.js, TypeScript, React.",
     live: process.env.NEXT_PUBLIC_BEAUTY_SALON_LIVE_URL!,
     source: process.env.NEXT_PUBLIC_BEAUTY_SALON_SOURCE_URL!,
   },
   {
     title: "Car Rental Platform",
-    description: "Full-featured car rental service with checkout system — Next.js, TypeScript, Custom Components.",
+    description:
+      "Full-featured car rental service with checkout system — Next.js, TypeScript, Custom Components.",
     live: process.env.NEXT_PUBLIC_CAR_RENTAL_LIVE_URL!,
     source: process.env.NEXT_PUBLIC_CAR_RENTAL_SOURCE_URL!,
   },
   {
     title: "Consulting Website",
-    description: "Professional consulting service landing page — Next.js, TypeScript, Modern UI.",
+    description:
+      "Professional consulting service landing page — Next.js, TypeScript, Modern UI.",
     live: process.env.NEXT_PUBLIC_CONSULTING_LIVE_URL!,
     source: process.env.NEXT_PUBLIC_CONSULTING_SOURCE_URL!,
   },
   {
+    title: "Crypto Vault",
+    description:
+      "Cryptocurrency landing page with modern design — Next.js, TypeScript, Web3 Integration.",
+    live: process.env.NEXT_PUBLIC_CRYPTO_VAULT_LIVE_URL!,
+    source: process.env.NEXT_PUBLIC_CRYPTO_VAULT_SOURCE_URL!,
+  },
+  {
     title: "Dental Clinic Website",
-    description: "Healthcare website with appointment booking — Next.js, TypeScript, Responsive Design.",
+    description:
+      "Healthcare website with appointment booking — Next.js, TypeScript, Responsive Design.",
     live: process.env.NEXT_PUBLIC_DENTAL_CLINIC_LIVE_URL!,
     source: process.env.NEXT_PUBLIC_DENTAL_CLINIC_SOURCE_URL!,
   },
   {
     title: "E-Commerce Platform",
-    description: "Complete e-commerce solution with product catalog — Next.js, TypeScript, React.",
+    description:
+      "Complete e-commerce solution with product catalog — Next.js, TypeScript, React.",
     live: process.env.NEXT_PUBLIC_ECOMMERCE_LIVE_URL!,
     source: process.env.NEXT_PUBLIC_ECOMMERCE_SOURCE_URL!,
   },
+    {
+    title: "PropertyPro SEC",
+    description:
+      "Real estate platform connecting buyers to landlords, enabling property uploads — Next.js, Node.js, Full-Stack.",
+    live: "https://propertyprosec.com/",
+    source: process.env.NEXT_PUBLIC_PROPERTYPRO_SOURCE_URL!,
+  },
   {
     title: "Restaurant Website",
-    description: "Restaurant showcase with menu and reservations — Next.js, TypeScript, Modern Design.",
+    description:
+      "Restaurant showcase with menu and reservations — Next.js, TypeScript, Modern Design.",
     live: process.env.NEXT_PUBLIC_RESTAURANT_LIVE_URL!,
     source: process.env.NEXT_PUBLIC_RESTAURANT_SOURCE_URL!,
   },
 ];
-
-
 
 export default function Home() {
   return (
@@ -71,9 +97,16 @@ export default function Home() {
           Software Developer — JavaScript, TypeScript, Python
         </p>
         <p className="mt-4 max-w-2xl text-gray-600">
-          I create digital experiences that are fast, accessible, and reliable.
-          I&apos;m currently deep-diving into modern frontend tech and building
-          strong backend systems.
+          I help individual businesses, startups, and companies build robust and
+          scalable web applications. With over 4 years of experience, I
+          specialize in transforming ideas into reality using modern
+          technologies like JavaScript, TypeScript, and Python.
+        </p>
+        <p className="mt-3 max-w-2xl text-gray-600">
+          Beyond writing code, I focus on delivering optimized user experiences
+          that engage and retain users. I&apos;ve delivered production-ready
+          applications serving thousands of users and generating thousands of
+          dollars in monthly recurring revenue for project owners.
         </p>
         <div className="mt-6 flex gap-4">
           <a
@@ -91,14 +124,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About */}
-      <section id="about" className="py-16">
-        <h2 className="mb-4 text-xl font-semibold">About</h2>
-        <p className="max-w-2xl text-gray-600">
-          I help individual businesses, startups, and companies build robust and scalable web applications. With over 4 years of experience, I specialize in transforming ideas into reality using modern technologies like JavaScript, TypeScript, and Python.
-        </p>
-      </section>
-
       {/* Skills */}
       <section id="skills" className="py-16">
         <h2 className="mb-4 text-xl font-semibold">Skills</h2>
@@ -111,7 +136,7 @@ export default function Home() {
 
       {/* Projects */}
       <section id="projects" className="py-16">
-        <h2 className="mb-6 text-xl font-semibold">Selected Projects</h2>
+        <h2 className="mb-6 text-xl font-semibold">Projects</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p) => (
             <article
