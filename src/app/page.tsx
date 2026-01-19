@@ -11,69 +11,61 @@ const skills = [
 ];
 
 const projects = [
-
   {
     title: "Lata.ng",
     description:
       "E-commerce marketplace connecting buyers and sellers with product management — Next.js, Node.js, Full-Stack.",
-    live: process.env.NEXT_PUBLIC_LATA_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_LATA_SOURCE_URL!,
+    live: "https://lata.ng",
+    source: "#",
   },
   {
     title: "Beauty Salon Website",
     description:
       "Modern salon booking platform with responsive design — Next.js, TypeScript, React.",
-    live: process.env.NEXT_PUBLIC_BEAUTY_SALON_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_BEAUTY_SALON_SOURCE_URL!,
+    live: "https://beauty.javanslem.dev",
+    source: "https://github.com/ansman58/beauty-salon",
   },
   {
     title: "Car Rental Platform",
     description:
       "Full-featured car rental service with checkout system — Next.js, TypeScript, Custom Components.",
-    live: process.env.NEXT_PUBLIC_CAR_RENTAL_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_CAR_RENTAL_SOURCE_URL!,
+    live: "https://carental.javanslem.dev",
+    source: "https://github.com/ansman58/car-rental",
   },
   {
     title: "Consulting Website",
     description:
       "Professional consulting service landing page — Next.js, TypeScript, Modern UI.",
-    live: process.env.NEXT_PUBLIC_CONSULTING_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_CONSULTING_SOURCE_URL!,
-  },
-  {
-    title: "Crypto Vault",
-    description:
-      "Cryptocurrency landing page with modern design — Next.js, TypeScript, Web3 Integration.",
-    live: process.env.NEXT_PUBLIC_CRYPTO_VAULT_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_CRYPTO_VAULT_SOURCE_URL!,
+    live: "https://consulting.javanslem.dev",
+    source: "https://github.com/ansman58/consulting-firm",
   },
   {
     title: "Dental Clinic Website",
     description:
       "Healthcare website with appointment booking — Next.js, TypeScript, Responsive Design.",
-    live: process.env.NEXT_PUBLIC_DENTAL_CLINIC_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_DENTAL_CLINIC_SOURCE_URL!,
+    live: "https://dental.javanslem.dev",
+    source: "https://github.com/ansman58/dental-clinic",
   },
   {
     title: "E-Commerce Platform",
     description:
       "Complete e-commerce solution with product catalog — Next.js, TypeScript, React.",
-    live: process.env.NEXT_PUBLIC_ECOMMERCE_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_ECOMMERCE_SOURCE_URL!,
+    live: "https://ecommerce.javanslem.dev",
+    source: "https://github.com/ansman58/ecommerce-site",
   },
-    {
+  {
     title: "PropertyPro SEC",
     description:
       "Real estate platform connecting buyers to landlords, enabling property uploads — Next.js, Node.js, Full-Stack.",
     live: "https://propertyprosec.com/",
-    source: process.env.NEXT_PUBLIC_PROPERTYPRO_SOURCE_URL!,
+    source: "#",
   },
   {
     title: "Restaurant Website",
     description:
       "Restaurant showcase with menu and reservations — Next.js, TypeScript, Modern Design.",
-    live: process.env.NEXT_PUBLIC_RESTAURANT_LIVE_URL!,
-    source: process.env.NEXT_PUBLIC_RESTAURANT_SOURCE_URL!,
+    live: "https://restaurant.javanslem.dev",
+    source: "https://github.com/ansman58/restaurant",
   },
 ];
 
