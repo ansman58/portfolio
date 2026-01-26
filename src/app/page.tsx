@@ -102,101 +102,106 @@ export default function Home() {
       <main className="mx-auto max-w-5xl px-6">
         {/* Hero */}
         <section id="about" className="py-24">
-          <div className="mb-8 h-32 w-32 overflow-hidden rounded-full bg-gray-100 shadow-xl border-4 border-white">
+          <div className="mb-8 h-32 w-32 overflow-hidden rounded-full bg-gray-100">
             <Image
               src={profilePic}
-              alt="Anslem Nnakwe - Senior Web Developer"
+              alt="Anslem Nnakwe"
               className="h-full w-full object-cover"
               priority
             />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Senior Software Developer & <span className="text-gray-500">UI/UX Designer</span>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            Anslem Nnakwe
           </h1>
-          <p className="mt-4 text-xl text-gray-700">
-            I’m Anslem Nnakwe, better known as <span className="font-semibold">Javanslem</span>. 
-            I build robust, scalable, and high-performance web applications.
+          <p className="mt-2 text-lg text-gray-600">
+            Software Developer — JavaScript, TypeScript, Python
           </p>
-          <p className="mt-4 max-w-2xl text-gray-600 leading-relaxed">
-            With over <span className="font-medium text-black">5 years of experience</span>, 
-            I specialize in transforming complex ideas into pixel-perfect reality using 
-            modern technologies like <span className="font-medium text-black">React, Next.js, TypeScript, and Python</span>.
+          <p className="mt-4 max-w-2xl text-gray-600">
+            I help individual businesses, startups, and companies build robust and
+            scalable web applications. With over 5 years of experience, I
+            specialize in transforming ideas into reality using modern
+            technologies like JavaScript, TypeScript, and Python.
           </p>
-          <div className="mt-8 flex flex-wrap gap-4">
+          <p className="mt-3 max-w-2xl text-gray-600">
+            Beyond writing code, I focus on delivering optimized user experiences
+            that engage and retain users. I&apos;ve delivered production-ready
+            applications serving thousands of users and generating thousands of
+            dollars in monthly recurring revenue for project owners.
+          </p>
+          <div className="mt-6 flex gap-4">
             <a
               href="#projects"
-              className="inline-block rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition-transform hover:scale-105"
+              className="inline-block rounded border border-black px-5 py-2 text-sm font-medium hover:bg-black hover:text-white"
             >
-              Explore My Projects
+              View Projects
             </a>
             <a
               href="mailto:javanslem@gmail.com"
-              className="inline-block rounded-full border border-black px-8 py-3 text-sm font-semibold transition-colors hover:bg-black hover:text-white"
+              className="inline-block rounded border border-black/30 px-5 py-2 text-sm font-medium hover:border-black"
             >
-              Get in Touch
+              Contact
             </a>
           </div>
         </section>
 
         {/* Skills */}
-        <section id="skills" className="py-20 border-t border-black/5">
-          <h2 className="mb-8 text-2xl font-bold tracking-tight">Core Competencies</h2>
-          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 text-gray-600 text-sm">
+        <section id="skills" className="py-16">
+          <h2 className="mb-4 text-xl font-semibold">Skills</h2>
+          <ul className="flex flex-wrap gap-x-8 gap-y-2 text-gray-600">
             {skills.map((s) => (
-              <li key={s} className="flex items-center gap-2">
-                <span className="h-1.5 w-1.5 rounded-full bg-black"></span>
-                {s}
-              </li>
+              <li key={s}>{s}</li>
             ))}
           </ul>
         </section>
 
         {/* Projects */}
-        <section id="projects" className="py-20 border-t border-black/5">
-          <h2 className="mb-8 text-2xl font-bold tracking-tight">Selected Work</h2>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <section id="projects" className="py-16">
+          <h2 className="mb-6 text-xl font-semibold">Projects</h2>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((p) => (
               <article
                 key={p.title}
-                className="group relative flex flex-col rounded-2xl border border-black/5 bg-white p-6 shadow-sm transition-all hover:shadow-md"
+                className="rounded border border-black/10 p-5"
               >
-                <h3 className="text-lg font-bold group-hover:text-gray-600 transition-colors">{p.title}</h3>
-                <p className="mt-2 text-sm text-gray-600 flex-grow leading-relaxed">{p.description}</p>
-                <div className="mt-6 flex items-center gap-4 text-sm font-medium">
-                  <a href={p.live} className="text-black underline underline-offset-4 hover:decoration-2 transition-all">
-                    Live Demo
+                <h3 className="font-medium">{p.title}</h3>
+                <p className="mt-1 text-sm text-gray-600">{p.description}</p>
+                <p className="mt-3 text-sm">
+                  <a href={p.live} className="underline hover:text-gray-600">
+                    View Website
+                  </a>{" "}
+                  ·{" "}
+                  <a href={p.source} className="underline hover:text-gray-600">
+                    Source
                   </a>
-                  <a href={p.source} className="text-gray-500 hover:text-black transition-colors">
-                    Source Code
-                  </a>
-                </div>
+                </p>
               </article>
             ))}
           </div>
         </section>
 
         {/* Contact */}
-        <section id="contact" className="py-24 border-t border-black/5 text-center">
-          <h2 className="mb-4 text-3xl font-bold tracking-tight">Let’s Build Something Exceptional</h2>
-          <p className="mx-auto max-w-xl text-gray-600 leading-relaxed text-lg">
-            Whether you’re a startup or an established company, I’m ready to bring your next web project to life.
-          </p>
-          <div className="mt-10">
+        <section id="contact" className="py-16">
+          <h2 className="mb-4 text-xl font-semibold">Contact</h2>
+          <p className="text-gray-600">
+            Want to discuss a role or project? Email me at{" "}
             <a
               href="mailto:javanslem@gmail.com"
-              className="inline-block text-2xl font-bold underline underline-offset-8 hover:text-gray-600 transition-colors"
+              className="underline hover:text-black"
             >
               javanslem@gmail.com
             </a>
-          </div>
-          <div className="mt-12 flex justify-center gap-8 text-gray-500 font-medium">
-            <a href="https://www.linkedin.com/in/nnakwe-anslem-534047189" className="hover:text-black transition-colors">
+            .
+          </p>
+          <p className="mt-2 text-gray-600">
+            You can also connect on{" "}
+            <a href="https://www.linkedin.com/in/nnakwe-anslem-534047189" className="underline hover:text-black">
               LinkedIn
+            </a>{" "}
+            or message me on{" "}
+            <a href="https://wa.me/2348062670715" className="underline hover:text-black">
+              WhatsApp
             </a>
-            <a href="https://github.com/ansman58" className="hover:text-black transition-colors">
-              GitHub
-            </a>
-          </div>
+          </p>
         </section>
       </main>
     </>
