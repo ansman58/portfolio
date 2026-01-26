@@ -172,12 +172,17 @@ export default function Home() {
         </p>
         <p className="mt-2 text-gray-600">
           You can also connect on{" "}
-          <a href="#" className="underline hover:text-black">
+          <a href="https://www.linkedin.com/in/nnakwe-anslem-534047189" className="underline hover:text-black">
             LinkedIn
           </a>{" "}
-          or view a downloadable resume.
+          or view my work on {" "}
+          <a href="https://github.com/ansman58" className="underline hover:text-black">
+            github
+          </a>
         </p>
       </section>
     </main>
   );
 }
+
+
