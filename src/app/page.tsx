@@ -19,6 +19,13 @@ const projects = [
     source: "#",
   },
   {
+    title: "Chops by Nefo",
+    description:
+      "Food ordering and delivery platform — Next.js, TypeScript, React.",
+    live: "https://chopsbynefo.javanslem.dev",
+    source: "#",
+  },
+  {
     title: "Beauty Salon Website",
     description:
       "Modern salon booking platform with responsive design — Next.js, TypeScript, React.",
@@ -168,11 +175,11 @@ export default function Home() {
                 <p className="mt-3 text-sm">
                   <a href={p.live} className="underline hover:text-gray-600">
                     View Website
-                  </a>{" "}
-                  ·{" "}
+                  </a>
+                  {/* ·{" "}
                   <a href={p.source} className="underline hover:text-gray-600">
                     Source
-                  </a>
+                  </a> */}
                 </p>
               </article>
             ))}
