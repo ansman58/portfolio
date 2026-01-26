@@ -15,12 +15,48 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anslem Nnakwe — Software Developer",
+  title: "Javanslem — Senior Software Developer",
   description:
-    "Portfolio of a senior software developer with 5+ years experience in JavaScript, TypeScript, Python, React, Next.js, and more.",
+    "Expert Software Developer and Designer specializing in Next.js, React, and TypeScript. Over 5 years of experience building scalable, Awwwards-worthy web applications.",
+  keywords: [
+    "Software Developer",
+    "Web Designer",
+    "Next.js Developer",
+    "TypeScript Expert",
+    "Full-Stack Engineer",
+    "Anslem Nnakwe",
+    "Javanslem",
+    "Portfolio",
+  ],
+  authors: [{ name: "Anslem Nnakwe", url: "https://javanslem.dev" }],
+  creator: "Anslem Nnakwe",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://javanslem.dev",
+    title: "Javanslem — Senior Software Developer",
+    description: "Expert Software Developer and Designer building scalable, high-performance web applications.",
+    siteName: "Javanslem Portfolio",
+    images: [
+      {
+        url: "/javanslem_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Javanslem - Senior Software Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Javanslem — Senior Software Developer",
+    description: "Expert Software Developer building scalable, high-performance web applications.",
+    images: ["/javanslem_logo.png"],
+    creator: "@ansman58",
+  },
   icons: {
     icon: "/favicon.png",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
