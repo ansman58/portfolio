@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anslem Nnakwe — Senior Software Developer",
+  title: "Anslem Nnakwe — Software Developer",
   description:
     "Portfolio of a senior software developer with 5+ years experience in JavaScript, TypeScript, Python, React, Next.js, and more.",
   icons: {

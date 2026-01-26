@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -17,8 +18,15 @@ export default function Header() {
   return (
     <header className="border-b border-black/10">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-lg font-semibold tracking-tight">
-          Anslem Nnakwe
+        <Link href="/" className="flex items-center gap-2 text-lg font-semibold tracking-tight">
+          <Image 
+            src="/javanslem_logo.png" 
+            alt="Javanslem Logo" 
+            width={32} 
+            height={32} 
+            className="rounded"
+          />
+          Javanslem
         </Link>
 
         {/* Desktop nav */}
