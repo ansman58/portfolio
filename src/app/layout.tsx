@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Javanslem — Senior Software Developer",
+  title: "Javanslem — Software Developer",
   description:
-    "Expert Software Developer and Designer specializing in Next.js, React, and TypeScript. Over 5 years of experience building scalable, Awwwards-worthy web applications.",
+    "Expert Software Developer specializing in Next.js, React, and TypeScript. Over 5 years of experience building scalable, Awwwards-worthy web applications.",
   keywords: [
     "Software Developer",
     "Web Designer",
@@ -34,21 +34,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://javanslem.dev",
-    title: "Javanslem — Senior Software Developer",
-    description: "Expert Software Developer and Designer building scalable, high-performance web applications.",
+    title: "Javanslem — Software Developer",
+    description: "Expert Software Developer building scalable, high-performance web applications.",
     siteName: "Javanslem Portfolio",
     images: [
       {
         url: "/javanslem_logo.png",
         width: 1200,
         height: 630,
-        alt: "Javanslem - Senior Software Developer",
+        alt: "Javanslem - Software Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Javanslem — Senior Software Developer",
+    title: "Javanslem — Software Developer",
     description: "Expert Software Developer building scalable, high-performance web applications.",
     images: ["/javanslem_logo.png"],
     creator: "@ansman58",
